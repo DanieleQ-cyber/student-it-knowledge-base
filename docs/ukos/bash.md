@@ -5,6 +5,6 @@ mkdir - tworzy folder
 touch - tworzy pusty plik
 cp - kopiowanie pliku
 mv - przenoszenie pliku
-rm - usuwanie bez ostrzeżenia
+rm - usuwanie
 cat - wyświetlenie zawartości pliku
 clear - wyczyszczenie konsoli
