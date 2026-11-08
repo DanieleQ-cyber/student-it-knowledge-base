@@ -1,13 +1,3 @@
-# Tytuł
-## Sekcja
-- element listy
-
-[WARP](docs/warp/git.md)
-
-| Polecenie | Znaczenie |
-|---|---|
-| `git status` | Pokazuje stan |
-
-```bash
-git status
-```# student-it-knowledge-base
+dotnet --version -Sprawdzenie zainstalowanej wersji zestawu .NET SDK.
+dotnet --list-sdks - Wyświetlenie wszystkich dostępnych wersji SDK.
+dotnet new list - Wyświetlenie dostępnych szablonów projektów.
