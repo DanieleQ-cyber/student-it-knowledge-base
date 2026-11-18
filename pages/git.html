@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ściąga Git</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ściąga Git</h1>
+
+        <nav>
+            <a href="../index.html">Strona główna</a>
+            <a href="bash.html">Bash</a>
+            <a href="git.html">Git</a>
+            <a href="dotnet-cli.html">.NET CLI</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Podstawowe informacje o Git</h2>
+            <p>
+                Git to rozproszony system kontroli wersji (DVCS) stworzony w 2005 
+                roku przez Linusa Torvaldsa do śledzenia zmian w plikach
+                i kodzie źródłowym. Umożliwia pracę offline, bezpieczne cofanie zmian oraz 
+                równoległą pracę wielu osób nad jednym projektem.
+            </p>
+        </section>
+
+        <section>
+            <h2>Procedura pracy</h2>
+            <ul>
+                <li>Najpierw synchronizacja</li>
+                <li>Tworzymy własny nowy branch.</li>
+                <li>Zmieniamy kod / tworzymy własny kod lub pliki</li>
+                <li>Robimy commit oraz odpowiednio go nazywamy</li>
+                <li>Po commicie robimy push</li>
+                <li>Jeśli skończymy to Pull Request</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Podstawowe polecenia Bash</h2>
+
+            <table>
+                <h4>Podstawowe polecenia Git</h4>
+                <thead>
+                    <tr>
+                        <th>Polecenie</th>
+                        <th>Przykład</th>
+                        <th>Opis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>git add</td>
+                        <td>git add .</td>
+                        <td>Przenosi zmiany z katalogu roboczego do przechowalni.</td>
+                    </tr>
+                    <tr>
+                        <td>git clone</td>
+                        <td>git clone (link)</td>
+                        <td>Tworzy kopię istniejącego repozytorium Git.</td>
+                    </tr>
+                    <tr>
+                        <td>git commit</td>
+                        <td>git commit -m "Opis commitu"</td>
+                        <td>Wykonuje commit migawki z przechowalni do historii projektu.</td>
+                    </tr>
+                    <tr>
+                        <td>git fetch</td>
+                        <td>git fetch origin</td>
+                        <td>Pobiera gałąź z innego repozytorium.</td>
+                    </tr>
+                    <tr>
+                        <td>git status</td>
+                        <td>git status</td>
+                        <td>Pokazuje status gita</td>
+                    </tr>
+                    <tr>
+                        <td>git branch</td>
+                        <td>git branch</td>
+                        <td>Pokazuje jakie branche są w repozytorium</td>
+                    </tr>
+                    <tr>
+                        <td>git switch</td>
+                        <td>git switch feature/html-git </td>
+                        <td>Przełącza do brancha feature/html-git</td>
+                    </tr>
+                    <tr>
+                        <td>git log</td>
+                        <td>git log -n 5</td>
+                        <td>Pokazuje histori commitów</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Materiały dodatkowe</h2>
+            <p>
+                <a href="../docs/warp/git.md">Oryginalna ściąga Git</a>
+            </p>
+            <p>
+                <a href="https://git-scm.com/book/en/v2">
+                    Oficjalny podręcznik GNU Ba
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Laboratorium 06 – Git</p>
+    </footer>
+
+</body>
+</html>
